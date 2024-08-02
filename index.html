@@ -27,6 +27,9 @@
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
+
+  <script src="js/i18n.js"></script>
+
 </head>
 
 <body>
@@ -37,7 +40,7 @@
         <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
           <a class="navbar-brand" href="index.html">
             <span>
-              Esigned
+              <!----Maybe a logo here-->
             </span>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -104,11 +107,11 @@
                       <h1>
                         CSDudes
                       </h1>
-                      <p>
+                      <p data-translate="under-title">
                         Websites - Social Media - Logos - Cards
                       </p>
                       <div class="">
-                        <a href="" id="contactUsButton">
+                        <a data-translate="contact-us" href="#email" id="contactUsButton">
                           Contact us
                         </a>
                       </div>
@@ -183,65 +186,55 @@
   <section class="do_section layout_padding">
     <div class="container">
       <div class="heading_container">
-        <h2>
+        <h2 data-translate="what-we-do">
           What we do
         </h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna
+        <p data-translate="what-we-do-description"> 
+          At CSDudes, we make websites, manage social media, design logos, and create business cards to help your brand look great online. 
         </p>
       </div>
       <div class="do_container">
-        <div class="box arrow-start arrow_bg">
-          <div class="img-box">
-            <img src="images/d-1.png" alt="">
-          </div>
-          <div class="detail-box">
-            <h6>
-              Marketing
-            </h6>
-          </div>
-        </div>
         <div class="box arrow-middle arrow_bg">
           <div class="img-box">
-            <img src="images/d-2.png" alt="">
+            <img src="images/wordpress-logo.png" alt="wordpress logo">
           </div>
           <div class="detail-box">
-            <h6>
-              Development
-            </h6>
-          </div>
-        </div>
-        <div class="box arrow-middle arrow_bg">
-          <div class="img-box">
-            <img src="images/d-3.png" alt="">
-          </div>
-          <div class="detail-box">
-            <h6>
-              Html5
-            </h6>
-          </div>
-        </div>
-        <div class="box arrow-end arrow_bg">
-          <div class="img-box">
-            <img src="images/d-4.png" alt="">
-          </div>
-          <div class="detail-box">
-            <h6>
-              Css
-            </h6>
-          </div>
-        </div>
-        <div class="box ">
-          <div class="img-box">
-            <img src="images/d-5.png" alt="">
-          </div>
-          <div class="detail-box">
-            <h6>
+            <h6 data-translate="wordpress">
               Wordpress
             </h6>
           </div>
         </div>
+        <div class="box arrow-start arrow_bg">
+          <div class="img-box">
+            <img src="images/social-media.png" alt="">
+          </div>
+          <div class="detail-box">
+            <h6 data-translate="social-media">
+              Social Media
+            </h6>
+          </div>
+        </div>
+        <div class="box arrow-middle arrow_bg">
+          <div class="img-box">
+            <img src="images/draw.png" alt="drawing logos">
+          </div>
+          <div class="detail-box">
+            <h6 data-translate="logos">
+              Logos
+            </h6>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img-box">
+            <img src="images/id-card.png" alt="">
+          </div>
+          <div class="detail-box">
+            <h6 data-translate="cards">
+              Cards
+            </h6>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
@@ -255,27 +248,18 @@
       <div class="row">
         <div class="col-md-5">
           <div class="img-box">
-            <img src="images/who-img.jpg" alt="">
+            <img src="images/laptop-image.jpg" alt="">
           </div>
         </div>
         <div class="col-md-7">
           <div class="detail-box">
             <div class="heading_container">
-              <h2>
-                WHO WE ARE?
+              <h2 data-translate="who-we are">
+                Who we are
               </h2>
             </div>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrudLorem ipsum dolor sit amet, consectetur
-              adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-              veniam, quis nostrud
-            </p>
-            <div>
-              <a href="">
-                Read More
-              </a>
-            </div>
+            <p data-translate="who-we-are-description">
+              We are just some dudes from CSD—CSDudes! As students from the Computer Science Department (CSD) of the University of Crete (UoC), we form a team of enthusiastic web developers with ideas and drive. We love what we do and strive for success in every project we start. Feel free to reach out to discuss your project or simply to say hi!</p>
           </div>
         </div>
       </div>
@@ -450,8 +434,8 @@
     <div class="container">
 
       <div class="heading_container" id="email">
-        <h2>
-          Request A Call Back
+        <h2 data-translate="send-an-email">
+          Send an email
         </h2>
       </div>
       <div class="">
@@ -533,8 +517,8 @@
             <h5>
               Informations
             </h5>
-            <p>
-              ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            <p data-translate="remote-note">
+              We love remote work. Don't hesitate to reach out even if you're far away.
             </p>
           </div>
         </div>
@@ -603,11 +587,11 @@
               <a href="">
                 <img src="images/twitter.png" alt="">
               </a>--->
-              <a href="">
-                <img src="images/linkedin.png" alt="https://www.linkedin.com/in/christopher-bougadakis-21418b309/">
+              <a href="https://www.linkedin.com/in/christopher-bougadakis-21418b309/" target="_blank">
+                <img src="images/linkedin.png" alt="">
               </a>
-              <a href="">
-                <img src="images/linkedin.png" alt="www.linkedin.com/in/yiannis-tzortzakis">
+              <a href="https://www.linkedin.com/in/yiannis-tzortzakis" target="_blank">
+                <img src="images/linkedin.png" alt="">
               </a><!---
               <a href="">
                 <img src="images/youtube.png" alt="">
@@ -666,5 +650,6 @@
   document.getElementById('contactUsButton').addEventListener('click', function() {
   document.getElementById('email').scrollIntoView({ behavior: 'smooth' });
   });
+
 
 </script>
