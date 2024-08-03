@@ -25,7 +25,19 @@ document.addEventListener('DOMContentLoaded', () => {
   
     // Set initial language
     // ayto prepei na allaxei kanonika. Na pairnei to default value apo to language selector
-    const initialLanguage = "en";
+    const initialLanguage = "gr";
+
+      // Event listeners for flag icons
+    document.getElementById('en-flag').addEventListener('click', () => {
+      loadTranslations('en');
+    });
+
+    document.getElementById('gr-flag').addEventListener('click', () => {
+      loadTranslations('gr');
+    });
+
+  // Set initial language to English
+    loadTranslations('en');
     loadTranslations(initialLanguage);
   });
   

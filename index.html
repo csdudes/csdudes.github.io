@@ -27,6 +27,7 @@
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
+  <link href="css/flagStyle.css" rel="stylesheet" />
 
   <script src="js/i18n.js"></script>
 
@@ -54,15 +55,18 @@
                   <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="" id="about-button">About</a>
+                  <a class="nav-link" href="" id="about-button" data-translate="about">About</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="portfolio.html"> Portfolio </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="" id="contactUsButton">Contact us</a>
+                  <a class="nav-link" href="" id="contactUsButton" data-translate="contact-us">Contact us</a>
                 </li>
               </ul>
+              <img src="images/united-kingdom-2.png" alt="UK Flag" class="flag-icon" id="en-flag">
+              <img src="images/greece.png" alt="Greek Flag" class="flag-icon" id="gr-flag">
+
               <div class="user_option">
                 <!-- end header section 
                 <a href="">
@@ -382,8 +386,8 @@
           <div class="detail-box">
             <h2>
               5+
-            </h2 data-translate="years-of-buniness">
-            <h5>
+            </h2>
+            <h5 data-translate="years-of-buniness">
               Years of Business
             </h5>
           </div>
@@ -480,7 +484,7 @@
       <div class="row">
         <div class="col-md-3">
           <div class="info_contact">
-            <h5>
+            <h5 data-translate="about">
               About
             </h5>
             <div>
@@ -511,7 +515,7 @@
         </div>
         <div class="col-md-3">
           <div class="info_info">
-            <h5>
+            <h5 data-translate="information">
               Informations
             </h5>
             <p data-translate="remote-note">
