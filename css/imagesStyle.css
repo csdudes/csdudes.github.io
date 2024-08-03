@@ -1,0 +1,19 @@
+/* Styling the image container */
+.image-container {
+    display: inline-block;
+    overflow: hidden; /* Hides the overflow of the zoomed image */
+    border: 1px solid #ddd; /* Optional border for styling */
+    transition: transform 0.2s ease-in-out; /* Smooth transition for the zoom effect */
+    margin: 10px;
+}
+
+.image-container img {
+    width: 100%; /* Make the image take up the full width of the container */
+    height: auto; /* Maintain the aspect ratio */
+    transition: transform 0.2s ease-in-out; /* Smooth transition for the zoom effect */
+    display: block;
+}
+
+.image-container:hover img {
+    transform: scale(1.1); /* Zoom the image to 110% of its original size */
+}
